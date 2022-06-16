@@ -16,8 +16,8 @@ module.exports = {
      * Add your entry files here
      */
     entry: {
-        'js/{{BPREPLACESLUG}}': './source/js/{{BPREPLACESLUG}}.js',
-        'css/{{BPREPLACESLUG}}': './source/sass/{{BPREPLACESLUG}}.scss',
+        'js/municipio-faq-nlp': './source/js/municipio-faq-nlp.js',
+        'css/municipio-faq-nlp': './source/sass/municipio-faq-nlp.scss',
     },
     
     /**

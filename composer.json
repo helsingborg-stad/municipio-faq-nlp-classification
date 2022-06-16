@@ -1,6 +1,6 @@
 {
-    "name": "{{BPREPLACEGITHUB}}/{{BPREPLACESLUG}}",
-    "description": "{{BPREPLACEDESCRIPTION}}",
+    "name": "municipio-faq-nlp-classification/municipio-faq-nlp",
+    "description": "Automaticly create taxonomies on FAQ questions and link to relevant articles",
     "type": "wordpress-plugin",
     "license": "MIT",
     "scripts": {
@@ -10,12 +10,12 @@
     },
     "authors": [
         {
-            "name": "{{BPREPLACEAUTHOR}}",
-            "email": "{{BPREPLACEAUTHOREMAIL}}"
+            "name": "Sebastian Thulin",
+            "email": "sebastian.thulin@helsingborg.se"
         }
     ],
     "autoload": {
-        "psr-4": {"{{BPREPLACENAMESPACE}}\\": "source/php/"}
+        "psr-4": {"MunicipioFaqNlp\\": "source/php/"}
     },
     "minimum-stability": "stable",
     "require": {},
