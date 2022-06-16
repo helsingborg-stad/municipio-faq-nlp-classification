@@ -6,7 +6,7 @@ class PostType
 {
     public function __construct()
     {
-        add_action('init', array($this, 'registerPostTypeFAQ'));
+        $this->registerPostTypeFAQ(); // Contains hooks, allowed to run in construct
     }
 
     public function registerPostTypeFAQ(): string
