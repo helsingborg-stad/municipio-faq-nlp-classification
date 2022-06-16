@@ -4,12 +4,19 @@ namespace MunicipioFaqNlp;
 
 class App
 {
+    private $cacheBust = null;
+
     public function __construct()
     {
+        //Init
+        new PostType();
+
+        //Init cachebust
+        $this->cacheBust = new \MunicipioFaqNlp\Helper\CacheBust();
+
+        //Enqueue scripts & styles
         add_action('admin_enqueue_scripts', array($this, 'enqueueStyles'));
         add_action('admin_enqueue_scripts', array($this, 'enqueueScripts'));
-
-        $this->cacheBust = new \MunicipioFaqNlp\Helper\CacheBust();
     }
 
     /**

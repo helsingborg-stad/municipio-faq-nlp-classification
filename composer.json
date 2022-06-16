@@ -1,5 +1,5 @@
 {
-    "name": "municipio-faq-nlp-classification/municipio-faq-nlp",
+    "name": "helsingborg-stad/municipio-faq-nlp",
     "description": "Automaticly create taxonomies on FAQ questions and link to relevant articles",
     "type": "wordpress-plugin",
     "license": "MIT",
