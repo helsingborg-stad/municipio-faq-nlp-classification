@@ -1,11 +1,11 @@
 {
-  "name": "WordPress Plugin Boilerplate",
-  "description": "A boilerplate repo for WordPress plugins.",
-  "slug": "boilerplate",
-  "slugcamelcase": "Boilerplate",
-  "namespace": "WordPressPluginBoilerplate",
-  "capsConstant": "WP_PLUGIN_BOILERPLATE",
-  "author": "Firstname Lastname @ Company",
-  "authoremail": "firstname.lastname@company.com",
-  "github": "githubname"
+  "name": "Municipio FAQ NLP Classification",
+  "description": "Automaticly create taxonomies on FAQ questions and link to relevant articles",
+  "slug": "municipio-faq-nlp",
+  "slugcamelcase": "MunicipioFaqNlp",
+  "namespace": "MunicipioFaqNlp",
+  "capsConstant": "MUNICIPIO_FAQ_NLP",
+  "author": "Sebastian Thulin",
+  "authoremail": "sebastian.thulin@helsingborg.se",
+  "github": "municipio-faq-nlp-classification"
 }
