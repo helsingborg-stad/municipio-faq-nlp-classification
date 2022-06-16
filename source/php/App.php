@@ -10,6 +10,7 @@ class App
     {
         //Init
         new PostType();
+        new Classify();
 
         //Init cachebust
         $this->cacheBust = new \MunicipioFaqNlp\Helper\CacheBust();
